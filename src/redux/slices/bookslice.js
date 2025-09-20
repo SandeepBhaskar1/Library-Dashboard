@@ -13,8 +13,8 @@ export const addBooks = createAsyncThunk("books/addBooks", async (book) => {
     ...book,
     issuedTo: "",
     createdAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString()
-  }
+    updatedAt: new Date().toISOString(),
+  };
   const res = await axios.post(baseUrl, newBook);
   return res.data;
 });
@@ -24,8 +24,8 @@ export const updateBook = createAsyncThunk(
   async ({ id, data }) => {
     const updatedBook = {
       ...data,
-      updatedAt: new Date().toISOString()
-    }
+      updatedAt: new Date().toISOString(),
+    };
     const res = await axios.put(`${baseUrl}/${id}`, updatedBook);
     return res.data;
   }
@@ -78,10 +78,10 @@ const bookSlice = createSlice({
       })
       .addCase(updateBook.fulfilled, (state, action) => {
         state.loading = false;
-        const updatedBook = action.payload; 
+        const updatedBook = action.payload;
         const index = state.items.findIndex((b) => b.id === updatedBook.id);
         if (index !== -1) {
-          state.items[index] = updatedBook; 
+          state.items[index] = updatedBook;
         }
       })
       .addCase(updateBook.rejected, (state, action) => {

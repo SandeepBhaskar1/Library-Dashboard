@@ -18,7 +18,9 @@ const ConfirmDialog = ({ open, onClose, onConfirm, title }) => {
         </Typography>
       </DialogContent>
       <DialogActions>
-        <Button onClick={onClose} color="secondary">Cancel</Button>
+        <Button onClick={onClose} color="secondary">
+          Cancel
+        </Button>
         <Button onClick={onConfirm} color="error" variant="contained">
           Delete
         </Button>

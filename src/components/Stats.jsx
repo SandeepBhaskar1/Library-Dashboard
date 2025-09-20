@@ -9,12 +9,11 @@ const Stats = () => {
 
   useEffect(() => {
     dispatch(fetchbooks());
-
   }, [dispatch]);
 
   const totalBooks = books.length;
-  const availableBooks = books.filter((b) => b.status === 'Available').length; 
-  const issuedBooks = books.filter((b) => b.status === 'Issued').length;
+  const availableBooks = books.filter((b) => b.status === "Available").length;
+  const issuedBooks = books.filter((b) => b.status === "Issued").length;
   const now = new Date();
   const newArrivals = books.filter((book) => {
     if (!book.createdAt) return false;
@@ -22,7 +21,6 @@ const Stats = () => {
     const diffInMinutes = (now - createdAt) / (1000 * 60);
     return diffInMinutes <= 30;
   }).length;
-
 
   const stats = [
     { label: "Total Books", value: totalBooks, color: "#1772ccff" },

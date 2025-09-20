@@ -9,7 +9,117 @@
       "status": "Issued",
       "issuedTo": "Glen",
       "createdAt": "2025-09-20T05:02:56.256Z",
-      "updatedAt": "2025-09-20T05:44:57.761Z"
+      "updatedAt": "2025-09-20T07:51:56.985Z"
+    },
+    {
+      "id": "32ba",
+      "name": "Soli Sorabjee: Life and Times: An Authorized Biography",
+      "author": "Abhinav Chandrachud",
+      "year": "2024",
+      "genre": "Biography",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:18:16.715Z",
+      "updatedAt": "2025-09-20T07:18:16.715Z"
+    },
+    {
+      "id": "c0b4",
+      "name": "The Rebel: A Biography of Ram Jethmalani ",
+      "author": "Susan Adelman",
+      "year": "2017",
+      "genre": "Biography",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:19:21.640Z",
+      "updatedAt": "2025-09-20T07:19:21.640Z"
+    },
+    {
+      "id": "1ae1",
+      "name": "Legal Eagles-Demy HB: Stories of the Top Seven Indian Lawyers",
+      "author": "Indu Ban",
+      "year": "2015",
+      "genre": "Non-Fiction",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:21:40.812Z",
+      "updatedAt": "2025-09-20T07:21:40.812Z"
+    },
+    {
+      "id": "93be",
+      "name": "The Diary of A Young Girl",
+      "author": "Anne Frank",
+      "year": "2015",
+      "genre": "Biography",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:23:07.899Z",
+      "updatedAt": "2025-09-20T07:23:07.899Z"
+    },
+    {
+      "id": "9633",
+      "name": "The Origin of Species",
+      "author": "Charles Darwin",
+      "year": "2013",
+      "genre": "Scientific-Literature",
+      "status": "Issued",
+      "issuedTo": "Glen",
+      "createdAt": "2025-09-20T07:26:26.146Z",
+      "updatedAt": "2025-09-20T07:40:42.415Z"
+    },
+    {
+      "id": "34fe",
+      "name": "The Theory Of Everything",
+      "author": "Stephen Hawking",
+      "year": "2006",
+      "genre": "Non-Fiction",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:38:25.868Z",
+      "updatedAt": "2025-09-20T07:38:25.868Z"
+    },
+    {
+      "id": "a450",
+      "name": "Dark Matter: The compulsive alternate-universe thriller",
+      "author": "Blake Crouch",
+      "year": "2023",
+      "genre": "Science-Fiction",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:39:38.710Z",
+      "updatedAt": "2025-09-20T07:39:38.710Z"
+    },
+    {
+      "id": "6255",
+      "name": "Don't Believe Everything You Think (English)",
+      "author": "Joseph Nguyen",
+      "year": "2022",
+      "genre": "Thriller",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:45:19.386Z",
+      "updatedAt": "2025-09-20T07:45:19.386Z"
+    },
+    {
+      "id": "59cc",
+      "name": "It Ends With Us ",
+      "author": "Colleen Hoover",
+      "year": "2016",
+      "genre": "Romance",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:47:49.594Z",
+      "updatedAt": "2025-09-20T07:47:49.594Z"
+    },
+    {
+      "id": "3cd9",
+      "name": "The Lord of the Rings",
+      "author": "J. R. R. Tolkien",
+      "year": "1937",
+      "genre": "Fantasy",
+      "status": "Available",
+      "issuedTo": "",
+      "createdAt": "2025-09-20T07:49:02.954Z",
+      "updatedAt": "2025-09-20T07:49:02.954Z"
     }
   ]
 }
